@@ -1,0 +1,22 @@
+{
+  "name": "xqcc7j",
+  "version": "0.0.0",
+  "description": "This example shows how to use sigma reducers to dynamically change nodes and edges appearance.",
+  "main": "index.js",
+  "scripts": {
+    "start": "kotatsu serve --typescript index.ts --public / ./public",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "graphology": "^0.23.0",
+    "sigma": "latest"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0",
+    "kotatsu": "^0.22.3",
+    "typescript": "4.4.4"
+  }
+}
